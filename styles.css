@@ -1,0 +1,111 @@
+html, body, h6 {
+    font-family: 'Roboto Slab';
+}
+.mdl-layout__header {
+    background: url('./header-front2.jpg') center / cover;
+}
+.mdl-layout__title {
+    font-family: 'Roboto Slab';
+    color: black;
+    letter-spacing: 2px;
+}
+@media (max-width: 500px) {
+    .mdl-layout__title {
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 370px){
+    .mdl-layout__title {
+        font-size: 15px;
+    }
+}
+.mdl-layout__header-row {
+    margin-top: 30px;
+}
+.mdl-layout__tab-bar {
+    background: none;
+}
+.mdl-layout__tab-bar-container {
+    height: 64px;
+}
+.mdl-layout__tab-bar .mdl-layout__tab {
+    color: black!important;
+    letter-spacing: 1px;
+    height: 64px;
+    line-height: 64px;
+}
+.mdl-layout__tab-bar-button {
+    display: none;
+}
+.mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+    background-color: #000 !important;
+    height: 3px !important;
+}
+@media (max-width: 600px) {
+    .mdl-layout__header-row {
+        padding-left: 24px;
+        margin-top: 8px;
+    }
+    .mdl-layout__tab-bar {
+        padding-left: 12px;
+    }
+    .mdl-layout__tab-bar-container {
+        height: 56px;
+    }
+    .mdl-layout__tab-bar .mdl-layout__tab {
+        color: black!important;
+        letter-spacing: 1px;
+        height: 56px;
+        line-height: 56px;
+    }
+}
+@media (max-width: 400px){
+    .mdl-layout__tab {
+        font-size: 12px;
+    }
+}
+.mdl-layout__content {
+    padding: 2 80px;
+}
+@media (max-width: 1024px){
+    .mdl-layout__content {
+        padding: 0 72px;
+    }
+}
+@media (max-width: 600px){
+    .mdl-layout__content {
+        padding: 0 24px;
+    }
+}
+
+.mdl-grid {
+    padding: 10px 0;
+}
+.mdl-cell {
+    margin: 10px 0;
+}
+.profile {
+    height: 192px;
+}
+.img-container {
+    padding-top: 4px; padding-right: 20px; float:left;
+}
+img.profile {
+    border-radius: 2px;
+}
+@media (max-width: 700px){
+    .profile {
+        height: 160px;
+    }
+}
+@media (max-width: 525px){
+    .profile {
+        height: 128px;
+    }
+}
+@media (max-width: 370px){
+    .profile {
+        height: 96px;
+    }
+}
